@@ -1,0 +1,55 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 30px;
+}
+
+/* Form container */
+form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields styling */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Highlight valid and invalid fields */
+input:invalid, select:invalid {
+  border: 2px solid red;
+}
+
+input:valid, select:valid {
+  border: 2px solid green;
+}
+
+/* Submit button */
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Error message box */
+#errorContainer {
+  margin-top: 15px;
+  color: red;
+}
